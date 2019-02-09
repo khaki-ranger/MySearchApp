@@ -34,7 +34,7 @@ class ItemTableViewCell: UITableViewCell {
     
     override func prepareForReuse() {
          // 元々入っている情報を再利用時にクリア
-        itemImageview.image = nil
+        itemImageView.image = nil
     }
 
 }
