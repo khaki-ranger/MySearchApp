@@ -143,7 +143,7 @@ class SearchiItemTableViewController: UITableViewController, UISearchBarDelegate
             
             // 商品タイトルを格納
             let itemTitle = result["Name"] as? String
-            itemData.itemUrl = itemTitle
+            itemData.itemTitle = itemTitle
             
             // 商品価格を格納
             if let itemPriceDic = result["Price"] as? [String: Any] {
